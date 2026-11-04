@@ -24,7 +24,12 @@ public class Ejemplo4 {
         System.out.println("Ingrese la nota necesaria");
         promedio = entrada.nextDouble();
         
-        entrada.nextLine();
+        entrada.nextLine();   //Se coloca esta entrada porque luego de una
+                              // numerica el espacio en blanco que queda
+                              // el programa lo lee como una entrada cadena
+                              // y queda vacia la variable usada para la cadena
+                              //entonces se usa eso para que aqui se guarde el 
+                              // espacio vacio :)
         
         String nombreEstudiante;
         System.out.println("Ingrese nombre de estudiante");
