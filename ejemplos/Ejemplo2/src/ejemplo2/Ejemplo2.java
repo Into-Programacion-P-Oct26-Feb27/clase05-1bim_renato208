@@ -39,8 +39,8 @@ public class Ejemplo2 {
             System.out.printf("Estudiante %s aprobado con un promedio: %.2f\n", 
                     miNombre, promedio);
         }else{
-            System.out.printf("Estudiante reprobado con un "
-                    + "promedio: %.2f\n", promedio);
+            System.out.printf("Estudiante %s reprobado con un "
+                    + "promedio: %.2f\n", miNombre, promedio);
         }
     }
     
